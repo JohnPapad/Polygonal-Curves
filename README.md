@@ -4,6 +4,17 @@ A collection of libraries implementing Locality Sensitive Hashing (LSH), Cluster
  developed for the class of ***"Software Development for Algorithmic Problems"*** in the Informatics Department.  
 The whole project was implemented with **C++** using **STL** (following the C++11 standard) and **Object Oriented Programming** practices.
 
+
+### Table of Contents
+
+[Part 1: Locality Sensitive Hashing (LSH)](#part1)
+
+[Part 2: Clustering](#part2)
+
+[Part 3: Applications](#part3)
+
+<a name="part1"/>
+
 ## Part 1: Locality Sensitive Hashing (LSH)
 
 An implementation of LSH  with classic hash function for polygonal curves.
@@ -91,6 +102,8 @@ $ ./lsh -d <input file> -q <query file> -k <int> -L <int> -ο <output file>
 $ make clean (to delete all .o files)
 ```
 
+<a name="part2"/>
+
 ## Part 2: Clustering
 
 An implementation of clustering using various combinations of methods, such as K-medoids, PAM, LSH etc.
@@ -177,6 +190,8 @@ $ make (to compile)
 $ ./cluster -i <input file> -c <configuration file> -o <output file> 
 $ make clean (to delete all .o files)
 ```
+
+<a name="part3"/>
 
 ## Part 3: Applications
 
